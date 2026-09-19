@@ -1,0 +1,71 @@
+---
+title: "Open A Chord"
+config:
+ flowchart:
+  nodeSpacing: 0
+---
+
+flowchart LR
+
+	%% chart for open chords (first five frets)
+	%%he-o(Open E) --- he-1(F) --- he-2() --- he-3(G) --- he-4(G♯/A♭) --- he-5(A)
+	%%b-o(Open B) --- b-1(C) --- b-2() --- b-3() --- b-4() --- b-5()
+	%%g-o(Open G) --- g-1() --- g-2() --- g-3()--- g-4() --- g-5()
+	%%d-o(Open D) --- d-1() --- d-2() --- d-3() --- d-4() --- d-5()
+	%%a-o(Open A) --- a-1() --- a-2() --- a-3() --- a-4() --- a-5()
+	%%le-o(Open E) --- le-1(F) --- le-2() --- le-3() --- le-4() --- le-5()
+
+	he-o(Open E) --- he-1(F) --- he-2(F♯/G♭) --- he-3(G) --- he-4(G♯/A♭) --- he-5(A)
+	b-o(Open B) --- b-1(C) --- b-2(C♯/D♭) --- b-3(D) --- b-4(D♯/E♭) --- b-5(E)
+	g-o(Open G) --- g-1(G♯/A♭) --- g-2(A) --- g-3(A♯/B♭)--- g-4(B) --- g-5(C)
+	d-o(Open D) --- d-1(D♯/E♭) --- d-2(E) --- d-3(F) --- d-4(F♯/G♭) --- d-5(G)
+	a-o(Open A) --- a-1(A♯/B♭) --- a-2(B) --- a-3(C) --- a-4(C♯/D♭) --- a-5(D)
+	le-o(Open E) --- le-1(F) --- le-2(F♯/G♭) --- le-3(G) --- le-4(G♯/A♭) --- le-5(A)
+
+	%% mark the notes to play for the high e string (he)
+	style he-o fill:green,color:white
+	style he-1 fill:DEFAULT,color:white
+	style he-2 fill:DEFAULT,color:white
+	style he-3 fill:DEFAULT,color:white
+	style he-4 fill:DEFAULT,color:white
+	style he-5 fill:DEFAULT,color:white
+
+	%% mark the notes to play for the b string
+	style b-o fill:DEFAULT,color:white
+	style b-1 fill:DEFAULT,color:white
+	style b-2 fill:green,color:white
+	style b-3 fill:DEFAULT,color:white
+	style b-4 fill:DEFAULT,color:white
+	style b-5 fill:DEFAULT,color:white
+
+	%% mark the notes to play for the g string
+	style g-o fill:DEFAULT,color:white
+	style g-1 fill:DEFAULT,color:white
+	style g-2 fill:green,color:white
+	style g-3 fill:DEFAULT,color:white
+	style g-4 fill:DEFAULT,color:white
+	style g-5 fill:DEFAULT,color:white
+
+	%% mark the notes to play for the d string
+	style d-o fill:DEFAULT,color:white
+	style d-1 fill:DEFAULT,color:white
+	style d-2 fill:green,color:white
+	style d-3 fill:DEFAULT,color:white
+	style d-4 fill:DEFAULT,color:white
+	style d-5 fill:DEFAULT,color:white
+
+	%% mark the notes to play for the a string
+	style a-o fill:green,color:white
+	style a-1 fill:DEFAULT,color:white
+	style a-2 fill:DEFAULT,color:white
+	style a-3 fill:DEFAULT,color:white
+	style a-4 fill:DEFAULT,color:white
+	style a-5 fill:DEFAULT,color:white
+
+	%% mark the notes to play for the low e string (le)
+	style le-o fill:red,color:white
+	style le-1 fill:DEFAULT,color:white
+	style le-2 fill:DEFAULT,color:white
+	style le-3 fill:DEFAULT,color:white
+	style le-4 fill:DEFAULT,color:white
+	style le-5 fill:DEFAULT,color:white
